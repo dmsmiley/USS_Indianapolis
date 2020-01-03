@@ -53,6 +53,9 @@ percentage.plot(kind = 'bar')
 ![png](percent_rank.png)
 * Percentage of Survival Rate Based on Pay Grade
 ```python
+pay_grade = uss.groupby('PAY GRADE')[['SURVIVAL']].mean()*100
+sns.barplot(x='PAY GRADE', y="SURVIVAL", data= uss_df, capsize=.3)
+```
 | Pay Grade	| Survival % |
 | --- | ---:|
 | E-1 |	31.03 |
