@@ -2,6 +2,12 @@
 
 # Machine Learning: USS Indianapolis Survival Exploration
 
-Tasked with the top secret mission of delivering what would become the most important package of ending WWII, the USS Indianapolis left San Francisco on July 16, 1945. Traveling through Pearl Harbor, the very symbol of where America was thrust into the conflict, the ship and its nearly 1200 personnel arrived on the small Mariana Island of Tinian supplying the Enola Gay with the "Little Boy" atomic weapon that would be dropped on Hiroshima in a mere weeks time. Unbeknownst to anyone, the USS Indianapolis too would suffer its own catastrophic demise.         
+Tasked with the top secret mission of delivering what would become the most important package of ending WWII, the USS Indianapolis left San Francisco on July 16, 1945. Traveling through Pearl Harbor, the very symbol of America's involvement of the conflict, the ship and its nearly 1200 personnel arrived on the small Mariana Island of Tinian supplying the Enola Gay with the "Little Boy": the atomic weapon that would be dropped on Hiroshima in a mere weeks time. Unbeknownst to anyone, the USS Indianapolis too would suffer its own catastrophic demise.         
 
-Study on the survival rate of the USS Indianapolis using Pandas, Seaborn, and Matplotlib
+###Software and Libraries
+This project utilizes the following software and Python libraries:
+..*Python 3.7
+..*NumPY
+..*Pandas
+..*Matplotlib
+..*Jupyter Notebook/Google Colab
