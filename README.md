@@ -20,8 +20,10 @@ I would like to thank USSIndianapolis.org for preserving the memory of all the s
 Definitions:
 * LAST: The last name of the individual
 * FIRST: The first name of the individual
-* RANK: The abbreviated specific role of the servicemember
+* ROLE: The abbreviated specific role of the servicemember
 * PAY GRADE: The level of pay according to each person's role
   * An E-grade was for servicemembers in the enlisted rank
   * An O-grade was for servicemembers in the commissioned rank
   * According to Navy.com, E-1 represents the highest paid rank for enlisted members, while O-1 is the lowest for commissioned members.
+* RANK: The general category for enlisted vs commissioned personnel
+* SURVIVAL: Outcome of survival (0 = Not Survived, 1 = Survived)
