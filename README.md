@@ -36,8 +36,9 @@ sns.countplot(x = 'SURVIVAL', data = uss)
 
 | Survived  |	315 |
 | Not Survived  | 880 |
-| --- | ---:|
 | Total	| 1195 |
+| --- | ---:|
+
 
 ![png](countplot_total_survival.png)
 * Percentage of Survival Rate Based on Rank
