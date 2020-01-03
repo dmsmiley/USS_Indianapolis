@@ -39,7 +39,7 @@ sns.countplot(x = 'SURVIVAL', data = uss)
 percentage = uss.groupby('RANK')[['SURVIVAL']].mean()*100
 percentage.plot(kind = 'bar')
 ```
-| Rank	| Suvival % |
+| Rank	| Survival % |
 | --- | ---:|
 | CO  |	18.292683 |
 | Enlisted |	26.954178 |
