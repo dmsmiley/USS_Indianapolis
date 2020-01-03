@@ -51,8 +51,7 @@ percentage.plot(kind = 'bar')
 | --- | ---:|
 | CO  |	18.292683 |
 | Enlisted |	26.954178 |
-
-![Cpt. McVay, USS Indianapolis](https://www.ussindianapolis.org/images/mcvay2.jpg "Cpt. McVay, USS Indianapolis"){: style = "float : right"}
+<img align = right src = "https://www.ussindianapolis.org/images/mcvay2.jpg" alt="Cpt. McVay, USS Indianapolis")
 
 "We waited five days in shark-infested waters to be rescued. We have waited over fifty years to get our Captain McVay's good name cleared." - Edward J. Brown, USS Indianapolis survivor
 
