@@ -33,12 +33,10 @@ I would like to thank [USSIndianapolis.org](https://www.ussindianapolis.org/intr
 ```python
 sns.countplot(x = 'SURVIVAL', data = uss)
 ```
-
-| Survived  |	315 |
-| Not Survived  | 880 |
 | Total	| 1195 |
 | --- | ---:|
-
+| Survived  |	315 |
+| Not Survived  | 880 |
 
 ![png](countplot_total_survival.png)
 * Percentage of Survival Rate Based on Rank
