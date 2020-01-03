@@ -45,8 +45,11 @@ sns.countplot(x = 'SURVIVAL', data = uss)
 percentage = uss.groupby('RANK')[['SURVIVAL']].mean()*100
 percentage.plot(kind = 'bar')
 ```
-<img align = "right" src = "https://www.ussindianapolis.org/images/mcvay2.jpg" alt="Cpt. McVay, USS Indianapolis"><figcaption>"We waited five days in shark-infested waters to be rescued. We have waited over fifty years to get our Captain McVay's good name cleared." - Edward J. Brown, USS Indianapolis survivor</figcaption>
-
+<figure>
+<img align = "right" src = "https://www.ussindianapolis.org/images/mcvay2.jpg" alt="Cpt. McVay, USS Indianapolis" title = "Capt. McVay> 
+<figcaption> Capt. McVay </figcaption>
+</figure>
+"We waited five days in shark-infested waters to be rescued. We have waited over fifty years to get our Captain McVay's good name cleared." - Edward J. Brown, USS Indianapolis survivor 
 | Rank	| Survival % | 
 | --- | ---:|
 | CO  |	18.292683 |
