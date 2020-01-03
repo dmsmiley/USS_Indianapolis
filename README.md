@@ -36,6 +36,7 @@ sns.countplot(x = 'SURVIVAL', data = uss)
 ![png](countplot_total_survival.png)
 * Percentage of Survival Rate Based on Rank
 ```python
-uss.groupby('RANK')[['SURVIVAL']].mean()*100
+percentage = uss.groupby('RANK')[['SURVIVAL']].mean()*100
+percentage.plot(kind = 'bar')
 ```
 ![png](percent_rank.png)
