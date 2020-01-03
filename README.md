@@ -20,7 +20,7 @@ I would like to thank USSIndianapolis.org for preserving the memory of all the s
 Definitions:
 * LAST: The last name of the individual
 * FIRST: The first name of the individual
-* ROLE: The abbreviated specific role of the servicemember
+* ROLE: The abbreviated specific role of the servicemember (see [here](https://www.cem.va.gov/CEM/docs/abbreviations/Ranks_Navy.pdf) abbreviation definitions)
 * PAY GRADE: The level of pay according to each person's role
   * An E-grade was for servicemembers in the enlisted rank
   * An O-grade was for servicemembers in the commissioned rank
