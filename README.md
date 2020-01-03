@@ -22,8 +22,8 @@ I would like to thank [USSIndianapolis.org](https://www.ussindianapolis.org/intr
 * __FIRST__: The first name of the individual
 * __ROLE__: The abbreviated specific role of the servicemember (see [here](https://www.cem.va.gov/CEM/docs/abbreviations/Ranks_Navy.pdf) US Navy rank abbreviations)
 * __PAY GRADE__: The level of pay according to each person's role
-  * An E-grade was for servicemembers in the enlisted rank
-  * An O-grade was for servicemembers in the commissioned rank
+  * An _E-grade_ was for servicemembers in the enlisted rank
+  * An _O-grade_ was for servicemembers in the commissioned rank
   * According to [Navy.com](https://www.navycs.com/charts/1942-military-pay-chart.html), E-1 represents the highest paid rank for enlisted members, while O-1 is the lowest for commissioned members.
 * __RANK__: The general category for enlisted vs commissioned personnel
 * __SURVIVAL__: Outcome of survival (0 = Not Survived, 1 = Survived)
