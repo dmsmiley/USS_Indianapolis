@@ -45,7 +45,7 @@ sns.countplot(x = 'SURVIVAL', data = uss)
 percentage = uss.groupby('RANK')[['SURVIVAL']].mean()*100
 percentage.plot(kind = 'bar')
 ```
-| Rank	| Survival % |
+| Rank	| Survival % | ![Cpt. McVay, USS Indianapolis](https://www.ussindianapolis.org/images/mcvay2.jpg "We waited five days in shark-infested waters to be rescued. We have waited over fifty years to get our Captain McVay's good name cleared." - Edward J. Brown, USS Indianapolis survivor)
 | --- | ---:|
 | CO  |	18.292683 |
 | Enlisted |	26.954178 |
