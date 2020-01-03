@@ -31,6 +31,11 @@ I would like to thank [USSIndianapolis.org](https://www.ussindianapolis.org/intr
 ### Decision Functions
 * Total Number of Survivors (0 = "Not Survived", 1 = "Survived")
 ```python
-sns.countplot(x = 'SURVIVAL', data=uss)
+sns.countplot(x = 'SURVIVAL', data = uss)
 ```
 ![png](countplot_total_survival.png)
+* Percentage of Survival Rate Based on Rank
+```python
+uss.groupby('RANK')[['SURVIVAL']].mean()*100
+```
+
