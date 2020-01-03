@@ -77,3 +77,4 @@ sns.barplot(x='PAY GRADE', y="SURVIVAL", data= uss_df, capsize=.3)
 | O-6 |	33.33 |
 
 ![png](pay_grade.png)
+The black vertical bars show each pay grade's standard deviation.
