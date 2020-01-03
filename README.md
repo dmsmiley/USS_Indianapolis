@@ -38,4 +38,4 @@ sns.countplot(x = 'SURVIVAL', data = uss)
 ```python
 uss.groupby('RANK')[['SURVIVAL']].mean()*100
 ```
-
+![png](percent_rank.png)
