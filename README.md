@@ -75,3 +75,5 @@ sns.barplot(x='PAY GRADE', y="SURVIVAL", data= uss_df, capsize=.3)
 | O-4 |	25.00 |
 | O-5 |	0.00 |
 | O-6 |	33.33 |
+
+![png](pay_grade.png)
