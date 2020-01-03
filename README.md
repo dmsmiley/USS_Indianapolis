@@ -27,3 +27,9 @@ I would like to thank [USSIndianapolis.org](https://www.ussindianapolis.org/intr
   * According to [Navy.com](https://www.navycs.com/charts/1942-military-pay-chart.html), E-1 represents the highest paid rank for enlisted members, while O-1 is the lowest for commissioned members.
 * __RANK__: The general category for enlisted vs commissioned personnel
 * __SURVIVAL__: Outcome of survival (0 = Not Survived, 1 = Survived)
+
+### Decision Functions
+* Total Number of Survivors (0 = "Not Survived", 1 = "Survived")
+```python
+sns.countplot(x = 'SURVIVAL', data=uss)
+```
