@@ -31,6 +31,7 @@ I would like to thank [USSIndianapolis.org](https://www.ussindianapolis.org/intr
 ### Decision Functions
 * Total Number of Survivors (0 = "Not Survived", 1 = "Survived")
 ```python
+uss['SURVIVAL'].value_counts()
 sns.countplot(x = 'SURVIVAL', data = uss)
 ```
 | Total	| 1195 |
