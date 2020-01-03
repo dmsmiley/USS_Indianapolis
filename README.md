@@ -33,3 +33,4 @@ I would like to thank [USSIndianapolis.org](https://www.ussindianapolis.org/intr
 ```python
 sns.countplot(x = 'SURVIVAL', data=uss)
 ```
+![png](countplot_total_survival.png)
