@@ -51,3 +51,20 @@ percentage.plot(kind = 'bar')
 | Enlisted |	26.954178 |
 
 ![png](percent_rank.png)
+* Percentage of Survival Rate Based on Pay Grade
+```python
+| Pay Grade	| Survival % |
+| --- | ---:|
+| E-1 |	31.03 |
+| E-2	| 31.63 |
+| E-3	| 22.42 |
+| E-4 |	24.72 |
+| E-5 |	28.30 |
+| E-6	| 27.37 |
+| E-7 |	33.33 |
+| O-1 |	25.00 | 
+| O-2 |	12.50 |
+| O-3 |	12.50 |
+| O-4 |	25.00 |
+| O-5 |	0.00 |
+| O-6 |	33.33 |
