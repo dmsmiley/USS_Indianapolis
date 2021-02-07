@@ -9,7 +9,7 @@ Tasked with the top secret mission of delivering what would become the most impo
 ### Software and Libraries
 This project utilizes the following software and Python libraries:
 * Python 3.7
-* NumPY
+* NumPy
 * Pandas
 * Matplotlib
 * Jupyter Notebook/Google Colab
