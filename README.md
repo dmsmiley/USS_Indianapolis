@@ -1,5 +1,3 @@
-***This project is a work in progress. Any feedback is more than welcome. 
-
 ![alt text](https://upload.wikimedia.org/wikipedia/commons/a/a9/USS_Indianapolis_%28CA-35%29_underway_at_sea_on_27_September_1939_%2880-G-425615%29.jpg "USS Indianapolis c.1939")
 
 # Machine Learning: USS Indianapolis Survival Exploration (In Progress)
@@ -87,3 +85,6 @@ sns.barplot(x='PAY GRADE', y="SURVIVAL", data= uss_df, capsize=.3)
 ![png](pay_grade.png)
 
 The black vertical bars show each pay grade's standard deviation.
+
+
+***This project is a work in progress. Any feedback is more than welcome. 
