@@ -1,4 +1,4 @@
-***I am still gathering data for the state and year of birth for each service member. This project is a work in progress. Any feedback is more than welcome. 
+***This project is a work in progress. Any feedback is more than welcome. 
 
 ![alt text](https://upload.wikimedia.org/wikipedia/commons/a/a9/USS_Indianapolis_%28CA-35%29_underway_at_sea_on_27_September_1939_%2880-G-425615%29.jpg "USS Indianapolis c.1939")
 
@@ -8,16 +8,22 @@ Tasked with the top secret mission of delivering what would become the most impo
 
 ### Software and Libraries
 This project utilizes the following software and Python libraries:
-* Python 3.7
-* NumPy
 * Pandas
+* Numpy
 * Matplotlib
-* Jupyter Notebook/Google Colab
+* Scikit Learn
+* Jupyter Notebook
+* Yellowbrick
 
 ### Introduction:
-This project attempts to predict the survival outcomes from the sinking of the USS Indianapolis in 1945. The data that I was able to obtain will allow the study to focus on the rank, pay grade, and status of a soldier based on their enlistment or commission. 
+This project attempts to predict one's survival aboard the USS Indianapolis. By training a dataset containing the crew members in various machine learning techniques, determining sigificant parameters for survival is the desired outcome.
 
-I would like to thank [USSIndianapolis.org](https://www.ussindianapolis.org/intro.htm) for preserving the memory of all the service members who were aboard the USS Indianapolis. Their detailed [dataset](https://www.ussindianapolis.org/crew.htm) allowed for this project to happen.
+I would like to thank the [USS Indianapolis CA-35 Legacy Organization](https://www.ussindianapolis.org/) for preserving the memory of all the service members who were aboard the USS Indianapolis. I hope this project lives up to the 
+
+### Data:
+The initial data with full list of first names, last names, role, and survival of each crew member was supplied by the USS Indianapolis CA-35 Legacy Organization. I am grateful for their generosity in sharing these records.
+
+The birth years and states for the crew members were wraggled from [HonorStates.org](https://www.honorstates.org/) or local newspaper obituaries.
 
 ### Definitions:
 * __LAST__: The last name of the individual
@@ -28,7 +34,7 @@ I would like to thank [USSIndianapolis.org](https://www.ussindianapolis.org/intr
   * An _O-grade_ was for service members in the commissioned rank
   * According to [Navy.com](https://www.navycs.com/charts/1942-military-pay-chart.html), E-1 represents the highest paid rank for enlisted members, while O-1 is the lowest for commissioned members.
 * __RANK__: The general category for enlisted vs commissioned personnel
-* __SURVIVAL__: Outcome of survival (0 = Not Survived, 1 = Survived)
+* __LS__: Outcome of survival (0 = Lost at Sea, 1 = Survived)
 
 ### Decision Functions
 * Total Number of Survivors (0 = "Not Survived", 1 = "Survived")
