@@ -37,8 +37,8 @@ The birth years and states for the crew members were wraggled from [HonorStates.
 ### Decision Functions
 * Total Number of Survivors (0 = "Not Survived", 1 = "Survived")
 ```python
-uss['SURVIVAL'].value_counts()
-sns.countplot(x = 'SURVIVAL', data = uss)
+uss['LS'].value_counts()
+sns.countplot(x = 'LS', data = uss)
 ```
 | Total	| 1195 |
 | --- | ---:|
@@ -48,7 +48,7 @@ sns.countplot(x = 'SURVIVAL', data = uss)
 ![png](countplot_total_survival.png)
 * Percentage of Survival Rate Based on Rank
 ```python
-percentage = uss.groupby('RANK')[['SURVIVAL']].mean()*100
+percentage = uss.groupby('RANK')[['LS']].mean()*100
 percentage.plot(kind = 'bar')
 ```
                                                                                                                       
@@ -63,7 +63,7 @@ percentage.plot(kind = 'bar')
 ![png](percent_rank.png)
 * Percentage of Survival Rate Based on Pay Grade
 ```python
-pay_grade = uss.groupby('PAY GRADE')[['SURVIVAL']].mean()*100
+pay_grade = uss.groupby('PAY GRADE')[['LS']].mean()*100
 sns.barplot(x='PAY GRADE', y="SURVIVAL", data= uss_df, capsize=.3)
 ```
 | Pay Grade	| Survival % |
